@@ -1,0 +1,21 @@
+source "https://github.com/CocoaPods/Specs"
+
+platform :ios, '9.0'
+inhibit_all_warnings!
+#use_frameworks!
+target 'ZQIntegrationPro' do
+    pod 'AFNetworking', '~>3.1.0'
+    pod 'SDWebImage', '~> 4.0'
+    pod 'MBProgressHUD', '~> 1.1.0'
+    pod 'IQKeyboardManager' #iOS8 and later
+    pod 'MLeaksFinder'
+    pod 'Masonry'
+    pod 'BlocksKit'
+    pod 'YYKit'
+    pod 'TKAlertAndActionSheet', '~> 1.3.0-fixshare'
+    pod 'MarqueeLabel'
+    pod 'Reachability'
+    pod 'MJRefresh'
+    pod 'WMPageController'
+    
+end
