@@ -10,5 +10,6 @@
 #define PrefixHeader_pch
 
 #import "YYKit.h"
+#import "ZQCategories.h"
 
 #endif /* PrefixHeader_pch */

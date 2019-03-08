@@ -527,7 +527,6 @@ static char const * const kEmptyDataSetView =       "emptyDataSetView";
         // Configure empty dataset userInteraction permission
         view.userInteractionEnabled = [self dzn_isTouchAllowed];
         
-        NSLog(@"view==%d",view.userInteractionEnabled);
         // Configure empty dataset fade in display
         view.fadeInOnDisplay = [self dzn_shouldFadeIn];
         
@@ -536,7 +535,6 @@ static char const * const kEmptyDataSetView =       "emptyDataSetView";
         [UIView performWithoutAnimation:^{
             [view layoutIfNeeded];            
         }];
-        
         
         // Configure scroll permission
         self.scrollEnabled = [self dzn_isScrollAllowed];
@@ -560,10 +558,6 @@ static char const * const kEmptyDataSetView =       "emptyDataSetView";
     else if (self.isEmptyDataSetVisible) {
         [self dzn_invalidate];
     }
-    
-    
-    
-    
 }
 
 - (void)dzn_invalidate
@@ -834,10 +828,6 @@ Class dzn_baseClassToSwizzleForTarget(id target)
         _button = [UIButton buttonWithType:UIButtonTypeCustom];
         _button.translatesAutoresizingMaskIntoConstraints = NO;
         _button.backgroundColor = [UIColor clearColor];
-        _button.layer.masksToBounds = YES;
-        _button.layer.cornerRadius = 5.0;
-        _button.layer.borderWidth = 0.5;
-        _button.layer.borderColor = [UIColor lightGrayColor].CGColor;
         _button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
         _button.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
         _button.accessibilityIdentifier = @"empty set button";
@@ -887,7 +877,6 @@ Class dzn_baseClassToSwizzleForTarget(id target)
     }
     
     _customView = view;
-    _customView.userInteractionEnabled = YES;
     _customView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.contentView addSubview:_customView];
 }
@@ -956,9 +945,6 @@ Class dzn_baseClassToSwizzleForTarget(id target)
         NSMutableDictionary *views = [NSMutableDictionary dictionary];
         NSDictionary *metrics = @{@"padding": @(padding)};
         
-        
-        
-        
         // Assign the image view's horizontal constraints
         if (_imageView.superview) {
             
@@ -1003,7 +989,7 @@ Class dzn_baseClassToSwizzleForTarget(id target)
             
             [subviewStrings addObject:@"button"];
             views[[subviewStrings lastObject]] = _button;
-                        
+            
             [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(padding@750)-[button(>=0)]-(padding@750)-|"
                                                                                      options:0 metrics:metrics views:views]];
         }

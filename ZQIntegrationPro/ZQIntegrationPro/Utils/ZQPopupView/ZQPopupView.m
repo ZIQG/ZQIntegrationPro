@@ -1,29 +1,29 @@
 //
-//  XMPopupView.m
+//  ZQPopupView.m
 //  TourShare_iOS_Seller
 //
-//  Created by Lying on 2018/4/23.
-//  Copyright © 2018年 Kerwin. All rights reserved.
+//  Created by hzq on 2018/4/23.
+//  Copyright © 2018年 hzq. All rights reserved.
 //
 
-#import "XMPopupView.h"
+#import "ZQPopupView.h"
 #define kwindow   ([UIApplication sharedApplication].keyWindow)
 #define kAnimateDuration 0.3
 
-@interface XMPopupView ()
+@interface ZQPopupView ()
 
 @property (nonatomic,strong) UIView                     *backgroundCoverView;//有颜色的背景遮罩
 @property (nonatomic,strong) UIVisualEffectView         *effectView;//玻璃遮罩，暂时不使用
 @property (nonatomic,strong) UIView                     *containerView;//放bgCoverView和self两个view
-@property (nonatomic,assign) XMPopupType                popupType;
-@property (nonatomic,  copy) XMPopupShowCmpletion       showCompletion;
-@property (nonatomic,  copy) XMPopupDismissCompletion   dismissCompletion;
+@property (nonatomic,assign) ZQPopupType                popupType;
+@property (nonatomic,  copy) ZQPopupShowCmpletion       showCompletion;
+@property (nonatomic,  copy) ZQPopupDismissCompletion   dismissCompletion;
 @property (nonatomic,assign) CGRect                     setupFrame;
 @property (nonatomic,  weak) UIView                     *popupContainerView;
 
 @end
 
-@implementation XMPopupView
+@implementation ZQPopupView
 
 - (instancetype)initWithCoder:(NSCoder *)coder{
     self = [super initWithCoder:coder];
@@ -41,18 +41,18 @@
 }
 
 - (void)showWithPopupContainerView:(UIView *)containerView
-                         popupType:(XMPopupType)popupType
+                         popupType:(ZQPopupType)popupType
                backgroundViewColor:(UIColor *)backgroundViewColor
-                    showCompletion:(XMPopupShowCmpletion)showCompletion {
+                    showCompletion:(ZQPopupShowCmpletion)showCompletion {
     self.popupContainerView = containerView;
     self.containerView.frame = containerView.bounds;
     self.backgroundCoverView.frame = containerView.bounds;
     [self showWithPopupType:popupType backgroundViewColor:backgroundViewColor showCompletion:showCompletion];
 }
 
-- (void)showWithPopupType:(XMPopupType)popupType
+- (void)showWithPopupType:(ZQPopupType)popupType
       backgroundViewColor:(UIColor *)backgroundViewColor
-           showCompletion:(XMPopupShowCmpletion)showCompletion {
+           showCompletion:(ZQPopupShowCmpletion)showCompletion {
     self.popupType = popupType;
     self.backgroundCoverView.backgroundColor = backgroundViewColor;
     if (self.popupContainerView == nil) {
@@ -63,7 +63,7 @@
     self.showCompletion = showCompletion;
     
     switch (popupType) {
-        case XMPopupTypeDrop:{
+        case ZQPopupTypeDrop:{
             self.setupFrame = self.frame;
             self.frame = CGRectMake(self.setupFrame.origin.x,
                                     -(self.setupFrame.origin.y+self.setupFrame.size.height),
@@ -83,7 +83,7 @@
             }];
         }
             break;
-        case XMPopupTypeAlert:{
+        case ZQPopupTypeAlert:{
             self.center = self.popupContainerView.center;
             self.transform = CGAffineTransformMakeScale(0.1, 0.1);
             [self.containerView addSubview:self];
@@ -99,7 +99,7 @@
         }
             break;
             
-        case XMPopupTypeSheet:{
+        case ZQPopupTypeSheet:{
             self.frame = CGRectMake((self.popupContainerView.frame.size.width-self.frame.size.width)/2,
                                     self.popupContainerView.frame.size.height,
                                     self.frame.size.width,
@@ -125,10 +125,10 @@
     }
 }
 
-- (void)dismissWithCompletion:(XMPopupShowCmpletion)dismissCompletion {
+- (void)dismissWithCompletion:(ZQPopupShowCmpletion)dismissCompletion {
     self.dismissCompletion = dismissCompletion;
     switch (self.popupType) {
-        case XMPopupTypeDrop:{
+        case ZQPopupTypeDrop:{
             [UIView animateWithDuration:kAnimateDuration animations:^{
                 self.frame = CGRectMake(self.frame.origin.x,
                                         -(self.frame.origin.y+self.frame.size.height),
@@ -144,7 +144,7 @@
             }];
         }
             break;
-        case XMPopupTypeAlert:{
+        case ZQPopupTypeAlert:{
             [UIView animateWithDuration:kAnimateDuration animations:^{
                 self.transform = CGAffineTransformMakeScale(0.01, 0.01);
                 self.backgroundCoverView.alpha = 0;
@@ -158,7 +158,7 @@
         }
             break;
             
-        case XMPopupTypeSheet:{
+        case ZQPopupTypeSheet:{
             [UIView animateWithDuration:kAnimateDuration animations:^{
                 self.frame = CGRectMake(self.frame.origin.x,
                                         self.popupContainerView.frame.size.height,

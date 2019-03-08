@@ -17,5 +17,7 @@ target 'ZQIntegrationPro' do
     pod 'Reachability'
     pod 'MJRefresh'
     pod 'WMPageController'
+    pod 'DZNEmptyDataSet'
+    pod 'TZImagePickerController'
     
 end

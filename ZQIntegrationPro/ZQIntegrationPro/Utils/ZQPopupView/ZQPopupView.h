@@ -1,5 +1,5 @@
 //
-//  XMPopupView.h
+//  ZQPopupView.h
 //  TourShare_iOS_Seller
 //
 //  Created by Lying on 2018/4/23.
@@ -8,16 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^XMPopupShowCmpletion)(void);
-typedef void(^XMPopupDismissCompletion)(void);
+typedef void(^ZQPopupShowCmpletion)(void);
+typedef void(^ZQPopupDismissCompletion)(void);
 
 typedef enum : NSUInteger {
-    XMPopupTypeSheet, //由下往上,最终位置在底部
-    XMPopupTypeAlert, //中间，由小变大，最终位置在屏幕中间
-    XMPopupTypeDrop,  //由上往下，最终位置由设置的frame决定
-} XMPopupType;
+    ZQPopupTypeSheet, //由下往上,最终位置在底部
+    ZQPopupTypeAlert, //中间，由小变大，最终位置在屏幕中间
+    ZQPopupTypeDrop,  //由上往下，最终位置由设置的frame决定
+} ZQPopupType;
 
-@interface XMPopupView : UIView
+@interface ZQPopupView : UIView
 
 //遮罩能否点击隐藏
 @property (nonatomic, assign) BOOL coverViewUserInteractionEnable;
@@ -28,9 +28,9 @@ typedef enum : NSUInteger {
  @param backgroundViewColor 背景遮罩颜色,需要透明度也在颜色这里设置
  @param showCompletion 弹出来的block
  */
-- (void)showWithPopupType:(XMPopupType)popupType
+- (void)showWithPopupType:(ZQPopupType)popupType
       backgroundViewColor:(UIColor *)backgroundViewColor
-           showCompletion:(XMPopupShowCmpletion)showCompletion;
+           showCompletion:(ZQPopupShowCmpletion)showCompletion;
 
 /**
  设置弹窗2 弹出在指定view
@@ -40,14 +40,14 @@ typedef enum : NSUInteger {
  @param showCompletion 弹出来的block
  */
 - (void)showWithPopupContainerView:(UIView *)containerView
-                         popupType:(XMPopupType)popupType
+                         popupType:(ZQPopupType)popupType
                backgroundViewColor:(UIColor *)backgroundViewColor
-                    showCompletion:(XMPopupShowCmpletion)showCompletion;
+                    showCompletion:(ZQPopupShowCmpletion)showCompletion;
 
 /**
  消失
  @param dismissCompletion 消失时的block
  */
-- (void)dismissWithCompletion:(XMPopupShowCmpletion)dismissCompletion;
+- (void)dismissWithCompletion:(ZQPopupShowCmpletion)dismissCompletion;
 
 @end
