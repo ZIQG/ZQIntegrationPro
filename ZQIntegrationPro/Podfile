@@ -19,5 +19,7 @@ target 'ZQIntegrationPro' do
     pod 'WMPageController'
     pod 'DZNEmptyDataSet'
     pod 'TZImagePickerController'
+    pod 'BaiduMapKit'
+    pod 'BMKLocationKit'
     
 end

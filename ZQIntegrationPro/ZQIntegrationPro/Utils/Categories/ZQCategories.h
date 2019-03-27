@@ -11,5 +11,11 @@
 
 #import "UIView+ZQAdd.h"
 #import "UIViewController+ZQAdd.h"
+#import "NSString+Regex.h"
+#import "UICollectionView+RAdd.h"
+#import "UITableView+RAdd.h"
+#import "UICollectionViewCell+RAdd.h"
+#import "UITableViewCell+RAdd.h"
+#import "UIImage+RAdd.h"
 
 #endif /* Header_h */

@@ -8,6 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		1F0753C1B47DFDA18C3D427A /* libPods-ZQIntegrationPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C708E90550DFE156797B4E /* libPods-ZQIntegrationPro.a */; };
+		642A32E0224B6473005FFEC0 /* ZQWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32DF224B6473005FFEC0 /* ZQWebViewController.m */; };
+		642A32EA224B6528005FFEC0 /* ZQInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32E2224B6527005FFEC0 /* ZQInputView.m */; };
+		642A32EB224B6528005FFEC0 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32E3224B6527005FFEC0 /* UICollectionViewLeftAlignedLayout.m */; };
+		642A32EC224B6528005FFEC0 /* ZQWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32E4224B6527005FFEC0 /* ZQWebView.m */; };
+		642A32ED224B6528005FFEC0 /* ZQShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A32E6224B6527005FFEC0 /* ZQShareView.xib */; };
+		642A32EE224B6528005FFEC0 /* ZQShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32E7224B6527005FFEC0 /* ZQShareView.m */; };
+		642A32F2224B65CE005FFEC0 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32F1224B65CE005FFEC0 /* UIButton+ImageTitleSpacing.m */; };
+		642A32FA224B6684005FFEC0 /* NSString+Trims.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32F7224B6683005FFEC0 /* NSString+Trims.m */; };
+		642A32FB224B6684005FFEC0 /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32F8224B6683005FFEC0 /* NSString+Regex.m */; };
+		642A32FC224B6684005FFEC0 /* NSString+encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32F9224B6683005FFEC0 /* NSString+encode.m */; };
+		642A3300224B6726005FFEC0 /* ZZVerticalCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32FF224B6726005FFEC0 /* ZZVerticalCycleView.m */; };
+		642A339A224B6978005FFEC0 /* RTalkBarPicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3365224B6978005FFEC0 /* RTalkBarPicCell.m */; };
+		642A339B224B6978005FFEC0 /* RTalkBarContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3366224B6978005FFEC0 /* RTalkBarContentCell.m */; };
+		642A339C224B6978005FFEC0 /* RTalkBarPicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A3367224B6978005FFEC0 /* RTalkBarPicCell.xib */; };
+		642A339D224B6978005FFEC0 /* RTalkBarContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A3369224B6978005FFEC0 /* RTalkBarContentCell.xib */; };
+		642A339E224B6978005FFEC0 /* RLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A336B224B6978005FFEC0 /* RLocationCell.m */; };
+		642A339F224B6978005FFEC0 /* RTalkPublishAddPicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A336D224B6978005FFEC0 /* RTalkPublishAddPicCell.m */; };
+		642A33A0224B6978005FFEC0 /* RTalkPublishLimitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A336E224B6978005FFEC0 /* RTalkPublishLimitCell.m */; };
+		642A33A1224B6978005FFEC0 /* RLocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A3370224B6978005FFEC0 /* RLocationCell.xib */; };
+		642A33A2224B6978005FFEC0 /* RTalkPublishPicsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A3371224B6978005FFEC0 /* RTalkPublishPicsCell.xib */; };
+		642A33A3224B6978005FFEC0 /* RTalkPublishInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3372224B6978005FFEC0 /* RTalkPublishInputCell.m */; };
+		642A33A4224B6978005FFEC0 /* RTalkPublishLimitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A3375224B6978005FFEC0 /* RTalkPublishLimitCell.xib */; };
+		642A33A5224B6978005FFEC0 /* RTalkPublishPicsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3376224B6978005FFEC0 /* RTalkPublishPicsCell.m */; };
+		642A33A6224B6978005FFEC0 /* RTalkPublishAddPicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A3378224B6978005FFEC0 /* RTalkPublishAddPicCell.xib */; };
+		642A33A7224B6978005FFEC0 /* RTalkPublishInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A3379224B6978005FFEC0 /* RTalkPublishInputCell.xib */; };
+		642A33A8224B6978005FFEC0 /* RTalkDetailCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A337B224B6978005FFEC0 /* RTalkDetailCommentCell.xib */; };
+		642A33A9224B6978005FFEC0 /* RTalkDetailContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A337C224B6978005FFEC0 /* RTalkDetailContentCell.xib */; };
+		642A33AA224B6978005FFEC0 /* RTalkCommentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A337D224B6978005FFEC0 /* RTalkCommentHeaderView.m */; };
+		642A33AB224B6978005FFEC0 /* RTalkDetailCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A337F224B6978005FFEC0 /* RTalkDetailCommentCell.m */; };
+		642A33AC224B6978005FFEC0 /* RTalkCommentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A3381224B6978005FFEC0 /* RTalkCommentHeaderView.xib */; };
+		642A33AD224B6978005FFEC0 /* RTalkDetailContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3382224B6978005FFEC0 /* RTalkDetailContentCell.m */; };
+		642A33AE224B6978005FFEC0 /* RLocationEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3386224B6978005FFEC0 /* RLocationEntity.m */; };
+		642A33AF224B6978005FFEC0 /* RTalkBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A338A224B6978005FFEC0 /* RTalkBarViewController.xib */; };
+		642A33B0224B6978005FFEC0 /* RTalkBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A338B224B6978005FFEC0 /* RTalkBarViewController.m */; };
+		642A33B1224B6978005FFEC0 /* RPublishTalkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A338D224B6978005FFEC0 /* RPublishTalkViewController.xib */; };
+		642A33B2224B6978005FFEC0 /* RLocationSearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A338E224B6978005FFEC0 /* RLocationSearchResultViewController.xib */; };
+		642A33B3224B6978005FFEC0 /* RSelectLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A338F224B6978005FFEC0 /* RSelectLocationViewController.xib */; };
+		642A33B4224B6978005FFEC0 /* RPublishTalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3392224B6978005FFEC0 /* RPublishTalkViewController.m */; };
+		642A33B5224B6978005FFEC0 /* RSelectLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3394224B6978005FFEC0 /* RSelectLocationViewController.m */; };
+		642A33B6224B6978005FFEC0 /* RLocationSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3395224B6978005FFEC0 /* RLocationSearchResultViewController.m */; };
+		642A33B7224B6978005FFEC0 /* RTalkBarDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A3397224B6978005FFEC0 /* RTalkBarDetailViewController.xib */; };
+		642A33B8224B6978005FFEC0 /* RTalkBarDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3398224B6978005FFEC0 /* RTalkBarDetailViewController.m */; };
+		642A33D9224B6A2F005FFEC0 /* UIFont+RAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A33D4224B6A2F005FFEC0 /* UIFont+RAdd.m */; };
+		642A33DA224B6A2F005FFEC0 /* UIColor+RAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A33D8224B6A2F005FFEC0 /* UIColor+RAdd.m */; };
+		642A33E3224B6A52005FFEC0 /* UITableViewCell+RAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A33DB224B6A52005FFEC0 /* UITableViewCell+RAdd.m */; };
+		642A33E4224B6A52005FFEC0 /* UITableView+RAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A33DC224B6A52005FFEC0 /* UITableView+RAdd.m */; };
+		642A33E5224B6A52005FFEC0 /* UICollectionViewCell+RAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A33DE224B6A52005FFEC0 /* UICollectionViewCell+RAdd.m */; };
+		642A33E6224B6A52005FFEC0 /* UICollectionView+RAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A33E1224B6A52005FFEC0 /* UICollectionView+RAdd.m */; };
+		642A33EB224B6CD0005FFEC0 /* UIImage+RAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A33EA224B6CD0005FFEC0 /* UIImage+RAdd.m */; };
 		64C8999B22320DE800E095C2 /* ZQProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8999922320DE800E095C2 /* ZQProgressHUD.m */; };
 		64C899A322320EF100E095C2 /* ZQImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C899A122320EF100E095C2 /* ZQImagePickerController.m */; };
 		64C899AE223210A800E095C2 /* ZQBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C899AD223210A800E095C2 /* ZQBaseTabBarController.m */; };
@@ -49,6 +98,89 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		642A32DE224B6473005FFEC0 /* ZQWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQWebViewController.h; sourceTree = "<group>"; };
+		642A32DF224B6473005FFEC0 /* ZQWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQWebViewController.m; sourceTree = "<group>"; };
+		642A32E1224B6527005FFEC0 /* ZQShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQShareView.h; sourceTree = "<group>"; };
+		642A32E2224B6527005FFEC0 /* ZQInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQInputView.m; sourceTree = "<group>"; };
+		642A32E3224B6527005FFEC0 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		642A32E4224B6527005FFEC0 /* ZQWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQWebView.m; sourceTree = "<group>"; };
+		642A32E5224B6527005FFEC0 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		642A32E6224B6527005FFEC0 /* ZQShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQShareView.xib; sourceTree = "<group>"; };
+		642A32E7224B6527005FFEC0 /* ZQShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQShareView.m; sourceTree = "<group>"; };
+		642A32E8224B6528005FFEC0 /* ZQWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQWebView.h; sourceTree = "<group>"; };
+		642A32E9224B6528005FFEC0 /* ZQInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQInputView.h; sourceTree = "<group>"; };
+		642A32F0224B65CE005FFEC0 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		642A32F1224B65CE005FFEC0 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		642A32F4224B6683005FFEC0 /* NSString+Trims.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trims.h"; sourceTree = "<group>"; };
+		642A32F5224B6683005FFEC0 /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		642A32F6224B6683005FFEC0 /* NSString+encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+encode.h"; sourceTree = "<group>"; };
+		642A32F7224B6683005FFEC0 /* NSString+Trims.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trims.m"; sourceTree = "<group>"; };
+		642A32F8224B6683005FFEC0 /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		642A32F9224B6683005FFEC0 /* NSString+encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+encode.m"; sourceTree = "<group>"; };
+		642A32FE224B6726005FFEC0 /* ZZVerticalCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZVerticalCycleView.h; sourceTree = "<group>"; };
+		642A32FF224B6726005FFEC0 /* ZZVerticalCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZVerticalCycleView.m; sourceTree = "<group>"; };
+		642A3364224B6978005FFEC0 /* RTalkBarContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkBarContentCell.h; sourceTree = "<group>"; };
+		642A3365224B6978005FFEC0 /* RTalkBarPicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkBarPicCell.m; sourceTree = "<group>"; };
+		642A3366224B6978005FFEC0 /* RTalkBarContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkBarContentCell.m; sourceTree = "<group>"; };
+		642A3367224B6978005FFEC0 /* RTalkBarPicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTalkBarPicCell.xib; sourceTree = "<group>"; };
+		642A3368224B6978005FFEC0 /* RTalkBarPicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkBarPicCell.h; sourceTree = "<group>"; };
+		642A3369224B6978005FFEC0 /* RTalkBarContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTalkBarContentCell.xib; sourceTree = "<group>"; };
+		642A336B224B6978005FFEC0 /* RLocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLocationCell.m; sourceTree = "<group>"; };
+		642A336C224B6978005FFEC0 /* RTalkPublishInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkPublishInputCell.h; sourceTree = "<group>"; };
+		642A336D224B6978005FFEC0 /* RTalkPublishAddPicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkPublishAddPicCell.m; sourceTree = "<group>"; };
+		642A336E224B6978005FFEC0 /* RTalkPublishLimitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkPublishLimitCell.m; sourceTree = "<group>"; };
+		642A336F224B6978005FFEC0 /* RTalkPublishPicsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkPublishPicsCell.h; sourceTree = "<group>"; };
+		642A3370224B6978005FFEC0 /* RLocationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLocationCell.xib; sourceTree = "<group>"; };
+		642A3371224B6978005FFEC0 /* RTalkPublishPicsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTalkPublishPicsCell.xib; sourceTree = "<group>"; };
+		642A3372224B6978005FFEC0 /* RTalkPublishInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkPublishInputCell.m; sourceTree = "<group>"; };
+		642A3373224B6978005FFEC0 /* RLocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLocationCell.h; sourceTree = "<group>"; };
+		642A3374224B6978005FFEC0 /* RTalkPublishAddPicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkPublishAddPicCell.h; sourceTree = "<group>"; };
+		642A3375224B6978005FFEC0 /* RTalkPublishLimitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTalkPublishLimitCell.xib; sourceTree = "<group>"; };
+		642A3376224B6978005FFEC0 /* RTalkPublishPicsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkPublishPicsCell.m; sourceTree = "<group>"; };
+		642A3377224B6978005FFEC0 /* RTalkPublishLimitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkPublishLimitCell.h; sourceTree = "<group>"; };
+		642A3378224B6978005FFEC0 /* RTalkPublishAddPicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTalkPublishAddPicCell.xib; sourceTree = "<group>"; };
+		642A3379224B6978005FFEC0 /* RTalkPublishInputCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTalkPublishInputCell.xib; sourceTree = "<group>"; };
+		642A337B224B6978005FFEC0 /* RTalkDetailCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTalkDetailCommentCell.xib; sourceTree = "<group>"; };
+		642A337C224B6978005FFEC0 /* RTalkDetailContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTalkDetailContentCell.xib; sourceTree = "<group>"; };
+		642A337D224B6978005FFEC0 /* RTalkCommentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkCommentHeaderView.m; sourceTree = "<group>"; };
+		642A337E224B6978005FFEC0 /* RTalkDetailContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkDetailContentCell.h; sourceTree = "<group>"; };
+		642A337F224B6978005FFEC0 /* RTalkDetailCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkDetailCommentCell.m; sourceTree = "<group>"; };
+		642A3380224B6978005FFEC0 /* RTalkDetailCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkDetailCommentCell.h; sourceTree = "<group>"; };
+		642A3381224B6978005FFEC0 /* RTalkCommentHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTalkCommentHeaderView.xib; sourceTree = "<group>"; };
+		642A3382224B6978005FFEC0 /* RTalkDetailContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkDetailContentCell.m; sourceTree = "<group>"; };
+		642A3383224B6978005FFEC0 /* RTalkCommentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkCommentHeaderView.h; sourceTree = "<group>"; };
+		642A3385224B6978005FFEC0 /* RLocationEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLocationEntity.h; sourceTree = "<group>"; };
+		642A3386224B6978005FFEC0 /* RLocationEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLocationEntity.m; sourceTree = "<group>"; };
+		642A3389224B6978005FFEC0 /* RTalkBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkBarViewController.h; sourceTree = "<group>"; };
+		642A338A224B6978005FFEC0 /* RTalkBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTalkBarViewController.xib; sourceTree = "<group>"; };
+		642A338B224B6978005FFEC0 /* RTalkBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkBarViewController.m; sourceTree = "<group>"; };
+		642A338D224B6978005FFEC0 /* RPublishTalkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPublishTalkViewController.xib; sourceTree = "<group>"; };
+		642A338E224B6978005FFEC0 /* RLocationSearchResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLocationSearchResultViewController.xib; sourceTree = "<group>"; };
+		642A338F224B6978005FFEC0 /* RSelectLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSelectLocationViewController.xib; sourceTree = "<group>"; };
+		642A3390224B6978005FFEC0 /* RLocationSearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLocationSearchResultViewController.h; sourceTree = "<group>"; };
+		642A3391224B6978005FFEC0 /* RSelectLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSelectLocationViewController.h; sourceTree = "<group>"; };
+		642A3392224B6978005FFEC0 /* RPublishTalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPublishTalkViewController.m; sourceTree = "<group>"; };
+		642A3393224B6978005FFEC0 /* RPublishTalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPublishTalkViewController.h; sourceTree = "<group>"; };
+		642A3394224B6978005FFEC0 /* RSelectLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSelectLocationViewController.m; sourceTree = "<group>"; };
+		642A3395224B6978005FFEC0 /* RLocationSearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLocationSearchResultViewController.m; sourceTree = "<group>"; };
+		642A3397224B6978005FFEC0 /* RTalkBarDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTalkBarDetailViewController.xib; sourceTree = "<group>"; };
+		642A3398224B6978005FFEC0 /* RTalkBarDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkBarDetailViewController.m; sourceTree = "<group>"; };
+		642A3399224B6978005FFEC0 /* RTalkBarDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkBarDetailViewController.h; sourceTree = "<group>"; };
+		642A33D4224B6A2F005FFEC0 /* UIFont+RAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+RAdd.m"; sourceTree = "<group>"; };
+		642A33D5224B6A2F005FFEC0 /* UIFont+RAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+RAdd.h"; sourceTree = "<group>"; };
+		642A33D7224B6A2F005FFEC0 /* UIColor+RAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RAdd.h"; sourceTree = "<group>"; };
+		642A33D8224B6A2F005FFEC0 /* UIColor+RAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RAdd.m"; sourceTree = "<group>"; };
+		642A33DB224B6A52005FFEC0 /* UITableViewCell+RAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+RAdd.m"; sourceTree = "<group>"; };
+		642A33DC224B6A52005FFEC0 /* UITableView+RAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+RAdd.m"; sourceTree = "<group>"; };
+		642A33DD224B6A52005FFEC0 /* UITableView+RAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+RAdd.h"; sourceTree = "<group>"; };
+		642A33DE224B6A52005FFEC0 /* UICollectionViewCell+RAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+RAdd.m"; sourceTree = "<group>"; };
+		642A33DF224B6A52005FFEC0 /* UICollectionView+RAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+RAdd.h"; sourceTree = "<group>"; };
+		642A33E0224B6A52005FFEC0 /* UITableViewCell+RAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+RAdd.h"; sourceTree = "<group>"; };
+		642A33E1224B6A52005FFEC0 /* UICollectionView+RAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+RAdd.m"; sourceTree = "<group>"; };
+		642A33E2224B6A52005FFEC0 /* UICollectionViewCell+RAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+RAdd.h"; sourceTree = "<group>"; };
+		642A33E7224B6C36005FFEC0 /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		642A33E9224B6CD0005FFEC0 /* UIImage+RAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RAdd.h"; sourceTree = "<group>"; };
+		642A33EA224B6CD0005FFEC0 /* UIImage+RAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RAdd.m"; sourceTree = "<group>"; };
 		64C8999922320DE800E095C2 /* ZQProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQProgressHUD.m; sourceTree = "<group>"; };
 		64C8999A22320DE800E095C2 /* ZQProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQProgressHUD.h; sourceTree = "<group>"; };
 		64C899A122320EF100E095C2 /* ZQImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQImagePickerController.m; sourceTree = "<group>"; };
@@ -130,13 +262,212 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		64C8999822320DE800E095C2 /* ZQProgressHUD */ = {
+		642A32EF224B65CE005FFEC0 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				642A32F0224B65CE005FFEC0 /* UIButton+ImageTitleSpacing.h */,
+				642A32F1224B65CE005FFEC0 /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		642A32F3224B6683005FFEC0 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				642A32F4224B6683005FFEC0 /* NSString+Trims.h */,
+				642A32F5224B6683005FFEC0 /* NSString+Regex.h */,
+				642A32F7224B6683005FFEC0 /* NSString+Trims.m */,
+				642A32F8224B6683005FFEC0 /* NSString+Regex.m */,
+				642A32F6224B6683005FFEC0 /* NSString+encode.h */,
+				642A32F9224B6683005FFEC0 /* NSString+encode.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		642A32FD224B6726005FFEC0 /* VerticalCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				642A32FE224B6726005FFEC0 /* ZZVerticalCycleView.h */,
+				642A32FF224B6726005FFEC0 /* ZZVerticalCycleView.m */,
+			);
+			path = VerticalCycleView;
+			sourceTree = "<group>";
+		};
+		642A330A224B694A005FFEC0 /* TalkBar */ = {
+			isa = PBXGroup;
+			children = (
+				642A3387224B6978005FFEC0 /* Controllers */,
+				642A3384224B6978005FFEC0 /* Models */,
+				642A3362224B6978005FFEC0 /* Views */,
+			);
+			path = TalkBar;
+			sourceTree = "<group>";
+		};
+		642A3362224B6978005FFEC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				642A3363224B6978005FFEC0 /* TalkBar */,
+				642A336A224B6978005FFEC0 /* Publish */,
+				642A337A224B6978005FFEC0 /* Detail */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		642A3363224B6978005FFEC0 /* TalkBar */ = {
+			isa = PBXGroup;
+			children = (
+				642A3364224B6978005FFEC0 /* RTalkBarContentCell.h */,
+				642A3365224B6978005FFEC0 /* RTalkBarPicCell.m */,
+				642A3366224B6978005FFEC0 /* RTalkBarContentCell.m */,
+				642A3367224B6978005FFEC0 /* RTalkBarPicCell.xib */,
+				642A3368224B6978005FFEC0 /* RTalkBarPicCell.h */,
+				642A3369224B6978005FFEC0 /* RTalkBarContentCell.xib */,
+			);
+			path = TalkBar;
+			sourceTree = "<group>";
+		};
+		642A336A224B6978005FFEC0 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				642A336B224B6978005FFEC0 /* RLocationCell.m */,
+				642A336C224B6978005FFEC0 /* RTalkPublishInputCell.h */,
+				642A336D224B6978005FFEC0 /* RTalkPublishAddPicCell.m */,
+				642A336E224B6978005FFEC0 /* RTalkPublishLimitCell.m */,
+				642A336F224B6978005FFEC0 /* RTalkPublishPicsCell.h */,
+				642A3370224B6978005FFEC0 /* RLocationCell.xib */,
+				642A3371224B6978005FFEC0 /* RTalkPublishPicsCell.xib */,
+				642A3372224B6978005FFEC0 /* RTalkPublishInputCell.m */,
+				642A3373224B6978005FFEC0 /* RLocationCell.h */,
+				642A3374224B6978005FFEC0 /* RTalkPublishAddPicCell.h */,
+				642A3375224B6978005FFEC0 /* RTalkPublishLimitCell.xib */,
+				642A3376224B6978005FFEC0 /* RTalkPublishPicsCell.m */,
+				642A3377224B6978005FFEC0 /* RTalkPublishLimitCell.h */,
+				642A3378224B6978005FFEC0 /* RTalkPublishAddPicCell.xib */,
+				642A3379224B6978005FFEC0 /* RTalkPublishInputCell.xib */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		642A337A224B6978005FFEC0 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				642A337B224B6978005FFEC0 /* RTalkDetailCommentCell.xib */,
+				642A337C224B6978005FFEC0 /* RTalkDetailContentCell.xib */,
+				642A337D224B6978005FFEC0 /* RTalkCommentHeaderView.m */,
+				642A337E224B6978005FFEC0 /* RTalkDetailContentCell.h */,
+				642A337F224B6978005FFEC0 /* RTalkDetailCommentCell.m */,
+				642A3380224B6978005FFEC0 /* RTalkDetailCommentCell.h */,
+				642A3381224B6978005FFEC0 /* RTalkCommentHeaderView.xib */,
+				642A3382224B6978005FFEC0 /* RTalkDetailContentCell.m */,
+				642A3383224B6978005FFEC0 /* RTalkCommentHeaderView.h */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		642A3384224B6978005FFEC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				642A3385224B6978005FFEC0 /* RLocationEntity.h */,
+				642A3386224B6978005FFEC0 /* RLocationEntity.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		642A3387224B6978005FFEC0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				642A3388224B6978005FFEC0 /* TalkBar */,
+				642A338C224B6978005FFEC0 /* Publish */,
+				642A3396224B6978005FFEC0 /* Detail */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		642A3388224B6978005FFEC0 /* TalkBar */ = {
+			isa = PBXGroup;
+			children = (
+				642A3389224B6978005FFEC0 /* RTalkBarViewController.h */,
+				642A338B224B6978005FFEC0 /* RTalkBarViewController.m */,
+				642A338A224B6978005FFEC0 /* RTalkBarViewController.xib */,
+			);
+			path = TalkBar;
+			sourceTree = "<group>";
+		};
+		642A338C224B6978005FFEC0 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				642A3393224B6978005FFEC0 /* RPublishTalkViewController.h */,
+				642A3392224B6978005FFEC0 /* RPublishTalkViewController.m */,
+				642A338D224B6978005FFEC0 /* RPublishTalkViewController.xib */,
+				642A3390224B6978005FFEC0 /* RLocationSearchResultViewController.h */,
+				642A3395224B6978005FFEC0 /* RLocationSearchResultViewController.m */,
+				642A338E224B6978005FFEC0 /* RLocationSearchResultViewController.xib */,
+				642A3391224B6978005FFEC0 /* RSelectLocationViewController.h */,
+				642A3394224B6978005FFEC0 /* RSelectLocationViewController.m */,
+				642A338F224B6978005FFEC0 /* RSelectLocationViewController.xib */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		642A3396224B6978005FFEC0 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				642A3399224B6978005FFEC0 /* RTalkBarDetailViewController.h */,
+				642A3398224B6978005FFEC0 /* RTalkBarDetailViewController.m */,
+				642A3397224B6978005FFEC0 /* RTalkBarDetailViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		642A33C6224B6A1C005FFEC0 /* UITable&Collection */ = {
+			isa = PBXGroup;
+			children = (
+				642A33DF224B6A52005FFEC0 /* UICollectionView+RAdd.h */,
+				642A33E1224B6A52005FFEC0 /* UICollectionView+RAdd.m */,
+				642A33E2224B6A52005FFEC0 /* UICollectionViewCell+RAdd.h */,
+				642A33DE224B6A52005FFEC0 /* UICollectionViewCell+RAdd.m */,
+				642A33DD224B6A52005FFEC0 /* UITableView+RAdd.h */,
+				642A33DC224B6A52005FFEC0 /* UITableView+RAdd.m */,
+				642A33E0224B6A52005FFEC0 /* UITableViewCell+RAdd.h */,
+				642A33DB224B6A52005FFEC0 /* UITableViewCell+RAdd.m */,
+			);
+			path = "UITable&Collection";
+			sourceTree = "<group>";
+		};
+		642A33D3224B6A2F005FFEC0 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				642A33D5224B6A2F005FFEC0 /* UIFont+RAdd.h */,
+				642A33D4224B6A2F005FFEC0 /* UIFont+RAdd.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		642A33D6224B6A2F005FFEC0 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				642A33D7224B6A2F005FFEC0 /* UIColor+RAdd.h */,
+				642A33D8224B6A2F005FFEC0 /* UIColor+RAdd.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		642A33E8224B6CD0005FFEC0 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				642A33E9224B6CD0005FFEC0 /* UIImage+RAdd.h */,
+				642A33EA224B6CD0005FFEC0 /* UIImage+RAdd.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		64C8999822320DE800E095C2 /* ProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
 				64C8999922320DE800E095C2 /* ZQProgressHUD.m */,
 				64C8999A22320DE800E095C2 /* ZQProgressHUD.h */,
 			);
-			path = ZQProgressHUD;
+			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
 		64C899A022320EF100E095C2 /* ImagePicker */ = {
@@ -161,6 +492,15 @@
 		64C899A92232105200E095C2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				642A32E9224B6528005FFEC0 /* ZQInputView.h */,
+				642A32E2224B6527005FFEC0 /* ZQInputView.m */,
+				642A32E1224B6527005FFEC0 /* ZQShareView.h */,
+				642A32E7224B6527005FFEC0 /* ZQShareView.m */,
+				642A32E6224B6527005FFEC0 /* ZQShareView.xib */,
+				642A32E8224B6528005FFEC0 /* ZQWebView.h */,
+				642A32E4224B6527005FFEC0 /* ZQWebView.m */,
+				642A32E5224B6527005FFEC0 /* UICollectionViewLeftAlignedLayout.h */,
+				642A32E3224B6527005FFEC0 /* UICollectionViewLeftAlignedLayout.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +514,8 @@
 				64C899B0223210BC00E095C2 /* ZQBaseNavigationController.m */,
 				64C899B2223210D500E095C2 /* ZQBaseViewController.h */,
 				64C899B3223210D500E095C2 /* ZQBaseViewController.m */,
+				642A32DE224B6473005FFEC0 /* ZQWebViewController.h */,
+				642A32DF224B6473005FFEC0 /* ZQWebViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -198,9 +540,15 @@
 		64C899C02232126600E095C2 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				64C899D2223212B600E095C2 /* ZQCategories.h */,
+				642A33E8224B6CD0005FFEC0 /* UIImage */,
+				642A33D6224B6A2F005FFEC0 /* UIColor */,
+				642A33D3224B6A2F005FFEC0 /* UIFont */,
+				642A33C6224B6A1C005FFEC0 /* UITable&Collection */,
+				642A32F3224B6683005FFEC0 /* NSString */,
+				642A32EF224B65CE005FFEC0 /* UIButton */,
 				64C899C1223212A400E095C2 /* UIView */,
 				64C899CA223212A500E095C2 /* UIViewControllers */,
-				64C899D2223212B600E095C2 /* ZQCategories.h */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -217,19 +565,19 @@
 		64C899CA223212A500E095C2 /* UIViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				64C899CB223212A500E095C2 /* UIViewController+ZQAdd.m */,
 				64C899CC223212A500E095C2 /* UIViewController+ZQAdd.h */,
+				64C899CB223212A500E095C2 /* UIViewController+ZQAdd.m */,
 			);
 			path = UIViewControllers;
 			sourceTree = "<group>";
 		};
-		64C899D32232173100E095C2 /* ZQRefresh */ = {
+		64C899D32232173100E095C2 /* Refresh */ = {
 			isa = PBXGroup;
 			children = (
 				64C899D52232173100E095C2 /* UIScrollView+ZQRefresh.h */,
 				64C899D42232173100E095C2 /* UIScrollView+ZQRefresh.m */,
 			);
-			path = ZQRefresh;
+			path = Refresh;
 			sourceTree = "<group>";
 		};
 		9E30D3EB21ABCFA000DD6255 = {
@@ -308,6 +656,7 @@
 		9E30D42B21ABD05500DD6255 /* Define */ = {
 			isa = PBXGroup;
 			children = (
+				642A33E7224B6C36005FFEC0 /* UtilsMacros.h */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -315,6 +664,7 @@
 		9E30D42C21ABD06E00DD6255 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				642A330A224B694A005FFEC0 /* TalkBar */,
 				64C899A422320F5500E095C2 /* HomePage */,
 				64C899B5223211DB00E095C2 /* Mine */,
 			);
@@ -324,12 +674,13 @@
 		9E30D42D21ABD09700DD6255 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				64C899D32232173100E095C2 /* ZQRefresh */,
 				64C899C02232126600E095C2 /* Categories */,
+				642A32FD224B6726005FFEC0 /* VerticalCycleView */,
+				64C899D32232173100E095C2 /* Refresh */,
 				64C899A022320EF100E095C2 /* ImagePicker */,
-				64C8999822320DE800E095C2 /* ZQProgressHUD */,
-				9E30D49921ABD2A400DD6255 /* ZQPopupView */,
-				9E30D43121ABD15500DD6255 /* ZQEmptyDataSet */,
+				64C8999822320DE800E095C2 /* ProgressHUD */,
+				9E30D49921ABD2A400DD6255 /* PopupView */,
+				9E30D43121ABD15500DD6255 /* EmptyDataSet */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -354,22 +705,22 @@
 			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
-		9E30D43121ABD15500DD6255 /* ZQEmptyDataSet */ = {
+		9E30D43121ABD15500DD6255 /* EmptyDataSet */ = {
 			isa = PBXGroup;
 			children = (
 				9E30D43221ABD15500DD6255 /* NSObject+EmptyDataSet.h */,
 				9E30D43421ABD15500DD6255 /* NSObject+EmptyDataSet.m */,
 			);
-			path = ZQEmptyDataSet;
+			path = EmptyDataSet;
 			sourceTree = "<group>";
 		};
-		9E30D49921ABD2A400DD6255 /* ZQPopupView */ = {
+		9E30D49921ABD2A400DD6255 /* PopupView */ = {
 			isa = PBXGroup;
 			children = (
 				9E30D49A21ABD2A400DD6255 /* ZQPopupView.h */,
 				9E30D49B21ABD2A400DD6255 /* ZQPopupView.m */,
 			);
-			path = ZQPopupView;
+			path = PopupView;
 			sourceTree = "<group>";
 		};
 		C37012E9F391FB746452A822 /* Pods */ = {
@@ -486,11 +837,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				642A33B2224B6978005FFEC0 /* RLocationSearchResultViewController.xib in Resources */,
+				642A33AC224B6978005FFEC0 /* RTalkCommentHeaderView.xib in Resources */,
 				64C899BF2232120D00E095C2 /* ZQMineViewController.xib in Resources */,
+				642A33A2224B6978005FFEC0 /* RTalkPublishPicsCell.xib in Resources */,
+				642A33A1224B6978005FFEC0 /* RLocationCell.xib in Resources */,
+				642A33A4224B6978005FFEC0 /* RTalkPublishLimitCell.xib in Resources */,
+				642A32ED224B6528005FFEC0 /* ZQShareView.xib in Resources */,
+				642A33AF224B6978005FFEC0 /* RTalkBarViewController.xib in Resources */,
+				642A33A8224B6978005FFEC0 /* RTalkDetailCommentCell.xib in Resources */,
+				642A33A6224B6978005FFEC0 /* RTalkPublishAddPicCell.xib in Resources */,
+				642A339C224B6978005FFEC0 /* RTalkBarPicCell.xib in Resources */,
 				9E30D40421ABCFA100DD6255 /* LaunchScreen.storyboard in Resources */,
+				642A33B7224B6978005FFEC0 /* RTalkBarDetailViewController.xib in Resources */,
 				64C899BA223211FD00E095C2 /* ZQHomePageViewController.xib in Resources */,
 				9E30D40121ABCFA100DD6255 /* Assets.xcassets in Resources */,
+				642A339D224B6978005FFEC0 /* RTalkBarContentCell.xib in Resources */,
 				9E30D3FF21ABCFA000DD6255 /* Main.storyboard in Resources */,
+				642A33B3224B6978005FFEC0 /* RSelectLocationViewController.xib in Resources */,
+				642A33B1224B6978005FFEC0 /* RPublishTalkViewController.xib in Resources */,
+				642A33A7224B6978005FFEC0 /* RTalkPublishInputCell.xib in Resources */,
+				642A33A9224B6978005FFEC0 /* RTalkDetailContentCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +909,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZQIntegrationPro/Pods-ZQIntegrationPro-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
@@ -550,6 +918,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
@@ -566,20 +935,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				642A32EB224B6528005FFEC0 /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				64C899D0223212A500E095C2 /* UIView+ZQAdd.m in Sources */,
 				64C899D62232173100E095C2 /* UIScrollView+ZQRefresh.m in Sources */,
+				642A33AD224B6978005FFEC0 /* RTalkDetailContentCell.m in Sources */,
+				642A33D9224B6A2F005FFEC0 /* UIFont+RAdd.m in Sources */,
+				642A33E5224B6A52005FFEC0 /* UICollectionViewCell+RAdd.m in Sources */,
 				9E30D4D921ABD2A400DD6255 /* ZQPopupView.m in Sources */,
 				64C899B1223210BC00E095C2 /* ZQBaseNavigationController.m in Sources */,
+				642A32EA224B6528005FFEC0 /* ZQInputView.m in Sources */,
 				64C899A322320EF100E095C2 /* ZQImagePickerController.m in Sources */,
 				9E30D43721ABD15600DD6255 /* NSObject+EmptyDataSet.m in Sources */,
+				642A33E3224B6A52005FFEC0 /* UITableViewCell+RAdd.m in Sources */,
+				642A33AA224B6978005FFEC0 /* RTalkCommentHeaderView.m in Sources */,
+				642A33A5224B6978005FFEC0 /* RTalkPublishPicsCell.m in Sources */,
 				64C899B4223210D500E095C2 /* ZQBaseViewController.m in Sources */,
+				642A3300224B6726005FFEC0 /* ZZVerticalCycleView.m in Sources */,
+				642A32FB224B6684005FFEC0 /* NSString+Regex.m in Sources */,
+				642A33B8224B6978005FFEC0 /* RTalkBarDetailViewController.m in Sources */,
 				64C899B9223211FD00E095C2 /* ZQHomePageViewController.m in Sources */,
+				642A339B224B6978005FFEC0 /* RTalkBarContentCell.m in Sources */,
+				642A33B5224B6978005FFEC0 /* RSelectLocationViewController.m in Sources */,
+				642A33B6224B6978005FFEC0 /* RLocationSearchResultViewController.m in Sources */,
+				642A33A3224B6978005FFEC0 /* RTalkPublishInputCell.m in Sources */,
+				642A33AB224B6978005FFEC0 /* RTalkDetailCommentCell.m in Sources */,
 				64C899D1223212A500E095C2 /* UIViewController+ZQAdd.m in Sources */,
+				642A32EE224B6528005FFEC0 /* ZQShareView.m in Sources */,
+				642A339A224B6978005FFEC0 /* RTalkBarPicCell.m in Sources */,
 				64C8999B22320DE800E095C2 /* ZQProgressHUD.m in Sources */,
 				64C899BE2232120D00E095C2 /* ZQMineViewController.m in Sources */,
+				642A33E6224B6A52005FFEC0 /* UICollectionView+RAdd.m in Sources */,
 				9E30D40721ABCFA100DD6255 /* main.m in Sources */,
+				642A33AE224B6978005FFEC0 /* RLocationEntity.m in Sources */,
+				642A33A0224B6978005FFEC0 /* RTalkPublishLimitCell.m in Sources */,
+				642A33B4224B6978005FFEC0 /* RPublishTalkViewController.m in Sources */,
 				9E30D4FC21ABD30E00DD6255 /* AppDelegate.m in Sources */,
+				642A32E0224B6473005FFEC0 /* ZQWebViewController.m in Sources */,
+				642A339F224B6978005FFEC0 /* RTalkPublishAddPicCell.m in Sources */,
+				642A33DA224B6A2F005FFEC0 /* UIColor+RAdd.m in Sources */,
+				642A33B0224B6978005FFEC0 /* RTalkBarViewController.m in Sources */,
+				642A339E224B6978005FFEC0 /* RLocationCell.m in Sources */,
+				642A32FA224B6684005FFEC0 /* NSString+Trims.m in Sources */,
+				642A33EB224B6CD0005FFEC0 /* UIImage+RAdd.m in Sources */,
+				642A32EC224B6528005FFEC0 /* ZQWebView.m in Sources */,
+				642A33E4224B6A52005FFEC0 /* UITableView+RAdd.m in Sources */,
+				642A32F2224B65CE005FFEC0 /* UIButton+ImageTitleSpacing.m in Sources */,
 				64C899AE223210A800E095C2 /* ZQBaseTabBarController.m in Sources */,
+				642A32FC224B6684005FFEC0 /* NSString+encode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

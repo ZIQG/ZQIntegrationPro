@@ -10,6 +10,7 @@
 #import "ZQHomePageViewController.h"
 #import "ZQMineViewController.h"
 #import "ZQBaseNavigationController.h"
+#import "RTalkBarViewController.h"
 
 @interface ZQBaseTabBarController ()
 
@@ -34,6 +35,8 @@
     
     ZQMineViewController *mineVC = [ZQMineViewController controllerFromXIB];
     [self setupChildViewController:mineVC title:@"我的" imageName:@"fl_icon_mine" seleceImageName:@"fl_icon_mine_sel"];
+    RTalkBarViewController *talkVC = [RTalkBarViewController controllerFromXIB];
+    [self setupChildViewController:talkVC title:@"说吧" imageName:@"fl_icon_mine" seleceImageName:@"fl_icon_mine_sel"];
     
 }
 
