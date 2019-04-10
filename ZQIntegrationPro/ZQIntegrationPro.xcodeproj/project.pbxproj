@@ -18,7 +18,6 @@
 		642A32FA224B6684005FFEC0 /* NSString+Trims.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32F7224B6683005FFEC0 /* NSString+Trims.m */; };
 		642A32FB224B6684005FFEC0 /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32F8224B6683005FFEC0 /* NSString+Regex.m */; };
 		642A32FC224B6684005FFEC0 /* NSString+encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32F9224B6683005FFEC0 /* NSString+encode.m */; };
-		642A3300224B6726005FFEC0 /* ZZVerticalCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A32FF224B6726005FFEC0 /* ZZVerticalCycleView.m */; };
 		642A339A224B6978005FFEC0 /* RTalkBarPicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3365224B6978005FFEC0 /* RTalkBarPicCell.m */; };
 		642A339B224B6978005FFEC0 /* RTalkBarContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A3366224B6978005FFEC0 /* RTalkBarContentCell.m */; };
 		642A339C224B6978005FFEC0 /* RTalkBarPicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642A3367224B6978005FFEC0 /* RTalkBarPicCell.xib */; };
@@ -57,6 +56,7 @@
 		642A33E5224B6A52005FFEC0 /* UICollectionViewCell+RAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A33DE224B6A52005FFEC0 /* UICollectionViewCell+RAdd.m */; };
 		642A33E6224B6A52005FFEC0 /* UICollectionView+RAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A33E1224B6A52005FFEC0 /* UICollectionView+RAdd.m */; };
 		642A33EB224B6CD0005FFEC0 /* UIImage+RAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A33EA224B6CD0005FFEC0 /* UIImage+RAdd.m */; };
+		646EA06C225DF18000F32F20 /* ZZCustomCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 646EA06B225DF18000F32F20 /* ZZCustomCycleView.m */; };
 		64C8999B22320DE800E095C2 /* ZQProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8999922320DE800E095C2 /* ZQProgressHUD.m */; };
 		64C899A322320EF100E095C2 /* ZQImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C899A122320EF100E095C2 /* ZQImagePickerController.m */; };
 		64C899AE223210A800E095C2 /* ZQBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C899AD223210A800E095C2 /* ZQBaseTabBarController.m */; };
@@ -117,8 +117,6 @@
 		642A32F7224B6683005FFEC0 /* NSString+Trims.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trims.m"; sourceTree = "<group>"; };
 		642A32F8224B6683005FFEC0 /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
 		642A32F9224B6683005FFEC0 /* NSString+encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+encode.m"; sourceTree = "<group>"; };
-		642A32FE224B6726005FFEC0 /* ZZVerticalCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZVerticalCycleView.h; sourceTree = "<group>"; };
-		642A32FF224B6726005FFEC0 /* ZZVerticalCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZVerticalCycleView.m; sourceTree = "<group>"; };
 		642A3364224B6978005FFEC0 /* RTalkBarContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTalkBarContentCell.h; sourceTree = "<group>"; };
 		642A3365224B6978005FFEC0 /* RTalkBarPicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkBarPicCell.m; sourceTree = "<group>"; };
 		642A3366224B6978005FFEC0 /* RTalkBarContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTalkBarContentCell.m; sourceTree = "<group>"; };
@@ -181,6 +179,8 @@
 		642A33E7224B6C36005FFEC0 /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
 		642A33E9224B6CD0005FFEC0 /* UIImage+RAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RAdd.h"; sourceTree = "<group>"; };
 		642A33EA224B6CD0005FFEC0 /* UIImage+RAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RAdd.m"; sourceTree = "<group>"; };
+		646EA06A225DF18000F32F20 /* ZZCustomCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCustomCycleView.h; sourceTree = "<group>"; };
+		646EA06B225DF18000F32F20 /* ZZCustomCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCustomCycleView.m; sourceTree = "<group>"; };
 		64C8999922320DE800E095C2 /* ZQProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQProgressHUD.m; sourceTree = "<group>"; };
 		64C8999A22320DE800E095C2 /* ZQProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQProgressHUD.h; sourceTree = "<group>"; };
 		64C899A122320EF100E095C2 /* ZQImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQImagePickerController.m; sourceTree = "<group>"; };
@@ -282,15 +282,6 @@
 				642A32F9224B6683005FFEC0 /* NSString+encode.m */,
 			);
 			path = NSString;
-			sourceTree = "<group>";
-		};
-		642A32FD224B6726005FFEC0 /* VerticalCycleView */ = {
-			isa = PBXGroup;
-			children = (
-				642A32FE224B6726005FFEC0 /* ZZVerticalCycleView.h */,
-				642A32FF224B6726005FFEC0 /* ZZVerticalCycleView.m */,
-			);
-			path = VerticalCycleView;
 			sourceTree = "<group>";
 		};
 		642A330A224B694A005FFEC0 /* TalkBar */ = {
@@ -459,6 +450,15 @@
 				642A33EA224B6CD0005FFEC0 /* UIImage+RAdd.m */,
 			);
 			path = UIImage;
+			sourceTree = "<group>";
+		};
+		646EA069225DF18000F32F20 /* CustomCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				646EA06A225DF18000F32F20 /* ZZCustomCycleView.h */,
+				646EA06B225DF18000F32F20 /* ZZCustomCycleView.m */,
+			);
+			path = CustomCycleView;
 			sourceTree = "<group>";
 		};
 		64C8999822320DE800E095C2 /* ProgressHUD */ = {
@@ -674,8 +674,8 @@
 		9E30D42D21ABD09700DD6255 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				646EA069225DF18000F32F20 /* CustomCycleView */,
 				64C899C02232126600E095C2 /* Categories */,
-				642A32FD224B6726005FFEC0 /* VerticalCycleView */,
 				64C899D32232173100E095C2 /* Refresh */,
 				64C899A022320EF100E095C2 /* ImagePicker */,
 				64C8999822320DE800E095C2 /* ProgressHUD */,
@@ -950,7 +950,6 @@
 				642A33AA224B6978005FFEC0 /* RTalkCommentHeaderView.m in Sources */,
 				642A33A5224B6978005FFEC0 /* RTalkPublishPicsCell.m in Sources */,
 				64C899B4223210D500E095C2 /* ZQBaseViewController.m in Sources */,
-				642A3300224B6726005FFEC0 /* ZZVerticalCycleView.m in Sources */,
 				642A32FB224B6684005FFEC0 /* NSString+Regex.m in Sources */,
 				642A33B8224B6978005FFEC0 /* RTalkBarDetailViewController.m in Sources */,
 				64C899B9223211FD00E095C2 /* ZQHomePageViewController.m in Sources */,
@@ -968,6 +967,7 @@
 				9E30D40721ABCFA100DD6255 /* main.m in Sources */,
 				642A33AE224B6978005FFEC0 /* RLocationEntity.m in Sources */,
 				642A33A0224B6978005FFEC0 /* RTalkPublishLimitCell.m in Sources */,
+				646EA06C225DF18000F32F20 /* ZZCustomCycleView.m in Sources */,
 				642A33B4224B6978005FFEC0 /* RPublishTalkViewController.m in Sources */,
 				9E30D4FC21ABD30E00DD6255 /* AppDelegate.m in Sources */,
 				642A32E0224B6473005FFEC0 /* ZQWebViewController.m in Sources */,

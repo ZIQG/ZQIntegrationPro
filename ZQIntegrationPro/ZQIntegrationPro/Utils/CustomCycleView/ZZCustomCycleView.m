@@ -1,21 +1,21 @@
 //
-//  ZZVerticalCycleView.m
+//  ZZCustomCycleView.m
 //  Rong518
 //
 //  Created by hzq on 2019/3/22.
 //  Copyright © 2019 hzq. All rights reserved.
 //
 
-#import "ZZVerticalCycleView.h"
+#import "ZZCustomCycleView.h"
 #import <Masonry/Masonry.h>
 
-@interface ZZVerticalCycleCell : UICollectionViewCell
+@interface ZZCustomCycleCell : UICollectionViewCell
 
 @property(nonatomic,weak)UIView * customView;
 
 @end
 
-@implementation ZZVerticalCycleCell
+@implementation ZZCustomCycleCell
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
@@ -25,7 +25,7 @@
     return self;
 }
 
--(void)setCustomView:(UIView *)customView{
+- (void)setCustomView:(UIView *)customView {
     if (!_customView) {
         _customView = customView;
         [self.contentView addSubview:_customView];
@@ -39,7 +39,7 @@
 @end
 
 
-@interface ZZVerticalCycleView ()<UICollectionViewDelegate,UICollectionViewDataSource>
+@interface ZZCustomCycleView ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (nonatomic, strong) UICollectionViewFlowLayout *layout;
 @property (nonatomic, weak) UICollectionView *collectionView;
@@ -51,7 +51,7 @@ static NSString * ZZCycleScrollCellIdentify = @"ZZCycleScrollCellIdentify";
 
 static NSUInteger  const ZZCycleMaxSections = 3;
 
-@implementation ZZVerticalCycleView
+@implementation ZZCustomCycleView
 
 #pragma mark - 初始化
 
@@ -66,7 +66,6 @@ static NSUInteger  const ZZCycleMaxSections = 3;
 
 - (void)initData {
     self.timeInterval = 3.0;
-    
     [self addTimer];
 }
 
@@ -106,7 +105,7 @@ static NSUInteger  const ZZCycleMaxSections = 3;
     collectionView.pagingEnabled = YES;
     collectionView.showsVerticalScrollIndicator = NO;
     collectionView.showsHorizontalScrollIndicator = NO;
-    [collectionView registerClass:ZZVerticalCycleCell.class forCellWithReuseIdentifier:ZZCycleScrollCellIdentify];
+    [collectionView registerClass:ZZCustomCycleCell.class forCellWithReuseIdentifier:ZZCycleScrollCellIdentify];
     [self addSubview:collectionView];
     self.collectionView = collectionView;
     [collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -129,8 +128,10 @@ static NSUInteger  const ZZCycleMaxSections = 3;
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    ZZVerticalCycleCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ZZCycleScrollCellIdentify forIndexPath:indexPath];
-    cell.customView = [self cycleCustomView];
+    ZZCustomCycleCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ZZCycleScrollCellIdentify forIndexPath:indexPath];
+    if (!cell.customView) {
+       cell.customView = [self cycleCustomView];
+    }
     [self setupDataWithCustomView:cell.customView index:indexPath.item];
     return cell;
 }
@@ -159,7 +160,11 @@ static NSUInteger  const ZZCycleMaxSections = 3;
     
     NSIndexPath *currentIndexPath = [[self.collectionView indexPathsForVisibleItems] lastObject];
     NSIndexPath *resetCurrentIndexPath = [NSIndexPath indexPathForItem:currentIndexPath.item inSection:ZZCycleMaxSections / 2];
-    [self.collectionView scrollToItemAtIndexPath:resetCurrentIndexPath atScrollPosition:UICollectionViewScrollPositionBottom animated:NO];
+    if (self.cycleType == ZZCycleTypeVertical) {
+        [self.collectionView scrollToItemAtIndexPath:resetCurrentIndexPath atScrollPosition:UICollectionViewScrollPositionBottom animated:NO];
+    } else {
+        [self.collectionView scrollToItemAtIndexPath:resetCurrentIndexPath atScrollPosition:UICollectionViewScrollPositionRight animated:NO];
+    }
     
     NSInteger nextItem = resetCurrentIndexPath.item + 1;
     NSInteger nextSection = resetCurrentIndexPath.section;
@@ -174,6 +179,16 @@ static NSUInteger  const ZZCycleMaxSections = 3;
 }
 
 #pragma mark - - - setter
+
+- (void)setCycleType:(ZZCycleType)cycleType {
+    _cycleType = cycleType;
+    if (cycleType == ZZCycleTypeHorizontal) {
+       self.layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    } else {
+        self.layout.scrollDirection = UICollectionViewScrollDirectionVertical;
+    }
+    [self.collectionView layoutIfNeeded];
+}
 
 - (void)setTimeInterval:(CGFloat)timeInterval {
     _timeInterval = timeInterval;
@@ -200,7 +215,10 @@ static NSUInteger  const ZZCycleMaxSections = 3;
     }else{
         return nil;
     }
-    
+}
+
+- (void)dealloc {
+    [self removeTimer];
 }
 
 @end
